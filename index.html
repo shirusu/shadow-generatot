@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+<section class="shadow-box">
+    <div class="shadow-grid">
+        <div class="settings-block">
+            <label for="vertical">Vertical Length</label>
+            <input type="range" id="vertical" class="vertical" min="-100" max="100" value="0">
+            <label for="horizontal">Horizontal Length</label>
+            <input type="range" id="horizontal" class="horizontal" min="-100" max="100" value="0">
+            <label for="blur">Blur Radius</label>
+            <input type="range" id="blur" class="blur"  max="100" value="0">
+            <label for="spread">Spread Radius</label>
+            <input type="range" id="spread" class="spread"  max="100" value="0">
+            <div class="color-box">
+                <label for="color">Shadow color</label>
+                <input type="color" id="color" class="color">
+            </div>
+
+        </div>
+        <div class="box">
+            <div class="box-shadow-code"></div>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
